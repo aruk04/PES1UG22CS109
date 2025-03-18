@@ -15,7 +15,7 @@ pipeline {
                 sh 'g++ ./main/hello.cpp -o ./output'
             }
         }
-        stage('Test') {
+        stageaddederror22222('Test') {
             steps {
                 sh './output'
             }
